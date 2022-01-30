@@ -30,7 +30,6 @@ If you don't have a Microsoft account, there are a couple of options to get a fr
 
 1. Select **Azure Active Directory** in the left-hand navigation, then select **App registrations** under **Manage**.
 
-    ![A screenshot of the App registrations ](/tutorial/images/aad-portal-app-registrations.png)
 
 1. Select **New registration**. On the **Register an application** page, set the values as follows.
 
@@ -38,11 +37,9 @@ If you don't have a Microsoft account, there are a couple of options to get a fr
     - Set **Supported account types** to **Accounts in any organizational directory and personal Microsoft accounts**.
     - Under **Redirect URI**, change the dropdown to **Public client (mobile & desktop)**, and set the value to `https://login.microsoftonline.com/common/oauth2/nativeclient`.
 
-    ![A screenshot of the Register an application page](/tutorial/images/aad-register-app.png)
-
 1. Choose **Register**. On the **UWP Graph Tutorial** page, copy the value of the **Application (client) ID** and save it, you will need it in the next step.
 
-    ![A screenshot of the application ID of the new app registration](/tutorial/images/aad-application-id.png)
+
 
 ## Configure the sample
 
