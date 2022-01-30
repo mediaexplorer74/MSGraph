@@ -8,7 +8,7 @@
 ## Screenshots
 ![Shot 1](Images/shot1.png)
 ![Shot 2](Images/shot2.png)
-![Shot 3](Images/shot2.png)
+![Shot 3](Images/shot3.png)
 
 ## How to run the completed project
 
