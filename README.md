@@ -2,7 +2,8 @@
 
 ## My Goals
 
-1. Main Goal. An attempt to adapt MS Graph UWP Sample via "UWP down-shifting", for all my devices (PC / XBox , and... MS Lumua 950)
+1. Main Goal. An attempt to adapt MS Graph UWP Sample via "UWP down-shifting", for all my devices 
+(PC / XBox , and... old sweet Microsoft Lumia 950!)
 2. Super goal: reconstruct Microsoft TODO API logics... as part of Microsoft Graph .
 
 ## Screenshots
