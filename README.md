@@ -1,16 +1,17 @@
-# MSGraphUWP
+# MSGraph V2
 
 ## My Goals
 
-1. Main Goal. An attempt to adapt MS Graph via "UWP down-shifting", for all my devices (PC / XBox , and... MS Lumua 950)
-2. Super goal: reconstruct Microsoft TODO API logics... as part of Microsoft Graph ;)
+1. Main Goal. An attempt to adapt MS Graph UWP Sample via "UWP down-shifting", for all my devices (PC / XBox , and... MS Lumua 950)
+2. Super goal: reconstruct Microsoft TODO API logics... as part of Microsoft Graph .
 
 ## Screenshots
 ![Shot 1](Images/shot1.png)
 ![Shot 2](Images/shot2.png)
-![Shot 3](Images/shot3.png)
 
-## How to run the completed project
+## Architecture
+
+![Topology](DOCs/Topology.png)
 
 ## Prerequisites
 
@@ -39,17 +40,16 @@ If you don't have a Microsoft account, there are a couple of options to get a fr
 
 1. Choose **Register**. On the **UWP Graph Tutorial** page, copy the value of the **Application (client) ID** and save it, you will need it in the next step.
 
+## Status
+
+Proof-of-concept
 
 
-## Configure the sample
+## References
 
-1. Rename the `OAuth.resw.example` file to `OAuth.resw`.
-1. Open `graph-tutorial.sln` in Visual Studio.
-1. Edit the `OAuth.resw` file in visual studio.Replace `YOUR_APP_ID_HERE` with the **Application Id** you got from the App Registration Portal.
-1. In Solution Explorer, right-click the **graph-tutorial** solution and choose **Restore NuGet Packages**.
+https://docs.microsoft.com/en-us/graph/use-the-api
 
-## Run the sample
+https://docs.microsoft.com/en-us/graph/api/resources/todo-overview?view=graph-rest-1.0
 
-In Visual Studio, press **F5** or choose **Debug > Start Debugging**.
 
 -- [m][e] 2022
