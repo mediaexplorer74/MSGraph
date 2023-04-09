@@ -1,14 +1,20 @@
-# MSGraph V2
+# MSGraph
+
+MS Graph RnD. Porting to W10M in progress...
 
 ## My Goals
-
-1. Main Goal. An attempt to adapt MS Graph UWP Sample via "UWP down-shifting", for all my devices 
+- Main Goal. An attempt to adapt MS Graph UWP Sample via "UWP down-shifting", for all my devices 
 (PC / XBox , and... old sweet Microsoft Lumia 950!)
-2. Super goal: reconstruct Microsoft TODO API logics... as part of Microsoft Graph .
+- Super goal: reconstruct Microsoft TODO API logics... as part of Microsoft Graph.
 
 ## Screenshots
 ![Shot 1](Images/shot1.png)
 ![Shot 2](Images/shot2.png)
+
+## Progress
+- Microsoft.Graph project added (obsolete... but works)
+- Microsoft.Graph.Core project added (obsolete too)
+- Proof-of-concept
 
 ## Architecture
 
@@ -41,10 +47,6 @@ If you don't have a Microsoft account, there are a couple of options to get a fr
 
 1. Choose **Register**. On the **UWP Graph Tutorial** page, copy the value of the **Application (client) ID** and save it, you will need it in the next step.
 
-## Status
-
-Proof-of-concept
-
 
 ## References
 
@@ -53,4 +55,4 @@ https://docs.microsoft.com/en-us/graph/use-the-api
 https://docs.microsoft.com/en-us/graph/api/resources/todo-overview?view=graph-rest-1.0
 
 
--- [m][e] 2022
+-- [m][e] 2023
